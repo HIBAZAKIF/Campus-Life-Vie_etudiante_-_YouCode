@@ -165,9 +165,7 @@ header nav ul {
     padding: 70px;
 }
 
-.campus .text {
-    width: 40%;
-}
+
 .campus .text h6 {
     color: #034BFF;
 }
@@ -252,3 +250,52 @@ header nav ul {
 .color_yellow{
     background-color: #C7F64A;
 }
+
+.evenement{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.prochaine_events{
+    background-color: #034BFF;
+    color: white;
+    padding: 45px;
+    border-radius: 10px;
+    width: 30%;
+}
+.prochaine_events h2 {
+    width : fit-content;
+}
+.prochaine_events p {
+    width: 50%;
+}
+.prochaine_events button{
+    background-color: white;
+    color: #034BFF;
+    padding: 15px;
+    border-color: #034BFF;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.events_actuel{
+    border: 1px solid #dadcdd;
+    border-radius: 10px;
+}
+.events_actuel img{
+    width : 100% ;
+}
+.events_actuel button {
+    background-color: white;
+    color: #034BFF;
+    border-color: #034BFF;
+    border-radius: 10px;
+    padding : 10px;
+    width: 100%;
+}
+
+.events_actuel h3 ,.events_actuel p ,.events_actuel button{
+    width: 80%;
+    margin: 5%;
+} 
