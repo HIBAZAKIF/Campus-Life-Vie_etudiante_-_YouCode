@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil web - Référence Campus Life</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 <body>
@@ -57,7 +60,7 @@
         <section class="statistiques">
             <div class="statistique">
                 <div>
-                    <img src="assets/icon1.png" alt="icon_apprenant">
+                    <i class="fa-solid fa-diamond"></i>
                 </div>
                 <div class="text">
                     <h4>+1000</h4>
@@ -66,7 +69,7 @@
             </div>
             <hr>
             <div class="statistique">
-                <img src="assets/icon2.png" alt="icon_clubs">
+                <i class="fa-solid fa-clover"></i>
 
                 <div class="text">
                     <h4>+20</h4>
@@ -75,7 +78,7 @@
             </div>
             <hr>
             <div class="statistique">
-                <img src="assets/icon3.png" alt="icon_event">
+                <i class="fa-solid fa-ticket"></i>
 
                 <div class="text">
                     <h4>+50</h4>
@@ -84,7 +87,7 @@
             </div>
             <hr>
             <div class="statistique">
-                <img src="assets/icon4.png" alt="icon_insertion">
+                <i class="fa-solid fa-square"></i>
 
                 <div class="text">
                     <h4>90%</h4>
@@ -93,91 +96,131 @@
             </div>
         </section>
         
-        <!-- 
-        <section class="Campus">
+        
+        <section class="campus">
             <div class="text">
                 <h6 id="petit_titre">UN CAMPUS PENSÉ POUR TOI</h6>
-                <h3>Un environnement qui te fait grandir</h3>
+                <h2>Un environnement qui te fait grandir</h3>
                 <p>Des espaces modernes, une pédagogie par projets, une communauté engagée et des opportunités réelles pour développer tes compétences.</p>
-                <button>Button · Explorer le campus →</button>
+                <button class="campus_button">Button · Explorer le campus →</button>
             </div>
             <div class="photos">
                 <div class="photo1">
-                    <img src="./assets/campus.html" alt="image du campus ">
+                    <img src="assets/campus.jpg" alt="image du campus ">
                     <p>un campus moderne</p>
                 </div>
 
                 <div class="photo2">
-                    <img src="./assets/projets.html" alt="image du campus ">
+                    <img src="./assets/projets.jpg" alt="image du campus ">
                     <p>Des projets concrets</p>
                 </div>
 
                 <div class="photo3">
-                    <img src="./assets/communauté.html" alt="image du campus ">
+                    <img src="./assets/communauté.jpg" alt="image du campus ">
                     <p>Des communauté active</p>
                 </div>
             </div>
         </section>
 
         <section class="youcode_journey">
-            <h3>Your YouCode Journey</h3>
+            <h2>Your YouCode Journey</h2>
             <p>De tes premiers pas à ton premier projet… et bien plus </p>
             <div class="days">
-                <div id="day1">
+                <div class="day">
                     <p>01</p>
-                   <i></i>
-                   <h6>DAY 1</h6>
+                    <i id="youcode_journey_icons" class="fa-solid fa-chess color_blue"></i>
+                   <h4>DAY 1</h4>
                    <p>Découverte du campus</p>
                 </div>
 
-                <p>· · · · · · · · · · ·</p>
+                <p>· · ·</p>
 
-                <div id="day2">
+                <div class="day">
                     <p>02</p>
-                   <i></i>
-                   <h6>First Commit</h6>
+                    <i id="youcode_journey_icons" class="fa-solid fa-code color_blue"></i>
+                   <h4>First Commit</h4>
                    <p>Tes premières lignes de code</p>
                 </div>
 
-                <p>· · · · · · · · · · ·</p>
+                <p>· · ·</p>
 
-                <div id="day3">
+                <div class="day">
                     <p>03</p>
-                   <i></i>
-                   <h6>First Pull Request</h6>
+                    <i id="youcode_journey_icons" class="fa-solid fa-clover  color_green"></i>
+                   <h4>First Pull Request</h4>
                    <p>Tu collabores en équipeDécouverte du campus</p>
                 </div>
 
-                <p>· · · · · · · · · · ·</p>
+                <p>· · ·</p>
 
-                <div id="day4">
+                <div class="day">
                     <p>04</p>
-                   <i></i>
-                   <h6>First Sprint</h6>
+                    <i id="youcode_journey_icons" class="fa-solid fa-bolt color_purple"></i>
+                   <h4>First Sprint</h4>
                    <p>Tu apprends la méthode Agile</p>
                 </div>
 
-                <p>· · · · · · · · · · ·</p>
+                <p>· · ·</p>
 
-                <div id="day5">
+                <div class="day">
                     <p>05</p>
-                   <i></i>
-                   <h6>First Project</h6>
+                    <i id="youcode_journey_icons" class="fa-solid fa-square color_blue"></i>
+                   <h4>First Project</h4>
                    <p>Tu construis quelque chose de réel</p>
                 </div>
 
-                <p>· · · · · · · · · · ·</p>
+                <p>· · ·</p>
 
-                <div id="day6">
+                <div class="day">
                     <p>06</p>
-                   <i></i>
-                   <h6>Demo Day</h6>
+                    <i id="youcode_journey_icons" class="fa-solid fa-chess color_yellow"></i>
+                   <h4>Demo Day</h4>
                    <p>Tu présentes ton projet</p>
                 </div>
 
             </div>
         </section>
-   -->
+
+        <section class="evenement">
+            <div class="prochaine_events">
+                <p>À NE PAS MANQUER</p>
+                <h2>Nos prochains événements</h2>
+                <p>Workshops, hackathons, conférences… Des moments pour apprendre, partager et te dépasser.</p>
+                <button>Voir tous les événements →</button>
+            </div>
+            <div class="events_actuel">
+                <img src="assets/photo5.jpg" alt="Événement 1">
+                <div class="date">
+                    <h3>25</h3>
+                    <h4>OCT</h4>
+                </div>
+                <h3>Tech Talk: IA et futur du travail</h3>
+                <p>♧  YouCode Campus</p>
+                <button>En savoir plus →</button>
+            </div>
+            <div class="events_actuel">
+                <img src="assets/photo5.jpg" alt="Événement 1">
+                <div class="date">
+                    <h3>25</h3>
+                    <h4>OCT</h4>
+                </div>
+                <h3>Tech Talk: IA et futur du travail</h3>
+                <p>♧  YouCode Campus</p>
+                <button>En savoir plus →</button>
+            </div>
+            <div class="events_actuel">
+                <img src="assets/photo5.jpg" alt="Événement 1">
+                <div class="date">
+                    <h3>25</h3>
+                    <h4>OCT</h4>
+                </div>
+                <h3>Tech Talk: IA et futur du travail</h3>
+                <p>♧  YouCode Campus</p>
+                <button>En savoir plus →</button>
+            </div>
+
+        </section>
+
       
 </body>
 </html>

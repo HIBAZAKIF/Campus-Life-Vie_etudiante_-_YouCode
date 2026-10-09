@@ -1,5 +1,5 @@
 *{
-    font-family: Inter, sans-serif;
+     font-family: "Inter", sans-serif;
 }
 
 header{
@@ -59,6 +59,7 @@ header nav ul {
 
 .hero_div {
     width : 30%;
+    margin-top: 4%;
 }
 .hero div h1 {
     font-size : 80px;
@@ -75,10 +76,11 @@ header nav ul {
 
 .hero div h2 {
     font-weight:900;
+    margin-top: -62px;
 }
 
 .hero div p {
-    width: 40%;
+    width: 80%;
 }
 .hero_img{
     width : 60%
@@ -144,6 +146,7 @@ header nav ul {
     justify-content: space-around;
     margin-left : 50px;
     margin-right : 50px;
+    background-color: #ffff;
 }
 
 .statistique{
@@ -151,4 +154,101 @@ header nav ul {
     gap: 20px;
     align-items: center;
 
+}
+
+.campus{
+    background-color: #F4F7FC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 70px;
+}
+
+.campus .text {
+    width: 40%;
+}
+.campus .text h6 {
+    color: #034BFF;
+}
+
+.campus .text h2 {
+    font-size: 40px;
+    font-weight:900;
+}
+
+.campus .text p {
+    width: 60%;
+    font-size: 20px;
+}
+.campus_button{
+    background-color: #034BFF;
+    color: white;
+    padding: 15px;
+    border-radius: 10px;
+}
+.campus .photos {
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+.photo1{
+    transform : rotate(-10deg);
+}
+
+.photo2{
+    transform: rotate(6deg) translate(0px , 40px);
+}
+
+.photo3{
+    transform : rotate(4deg) translate(-25px , 20px);
+}
+[class *= photo]{
+    border-radius: 10px;
+}
+.photos p {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
+.youcode_journey{
+    background-color: #08111D;
+    color: white;
+    padding: 20px 80px 20px 80px;
+}
+
+.days{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    text-align: center;
+}
+
+#youcode_journey_icons{
+    padding: 15px;
+    border-radius: 50%;
+}
+.days > p {
+
+    width: 80%;
+    margin-top: -70px;
+}
+.day{
+    text-align: center;
+}
+.color_blue{
+    background-color:#034BFF;
+}
+.color_green{
+    background-color: #04B886;
+}
+
+.color_purple{
+    background-color: #6744FF;
+}
+
+.color_yellow{
+    background-color: #C7F64A;
 }
