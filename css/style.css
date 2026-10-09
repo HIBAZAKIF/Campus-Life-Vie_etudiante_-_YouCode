@@ -299,3 +299,34 @@ header nav ul {
     width: 80%;
     margin: 5%;
 } 
+
+.témoignage {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align:justify;
+    
+}
+.témoignage img{
+    margin-left : 85px;
+}
+.témoignage_content{
+    flex: 1;
+    padding: 200px;
+}
+
+.témoignage_ligne{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.auteur{
+    padding-left: 20px;
+    border-left: 5px solid #034BFF;
+}
+
+.témoignage_buttons{
+    color: #034BFF;
+    text-align: center;
+}
