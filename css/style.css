@@ -303,16 +303,17 @@ header nav ul {
 .témoignage {
     display: flex;
     justify-content: space-around;
-    align-items: center;
     text-align:justify;
+    align-items: center;
+    background-color: #F4F7FC;
     
 }
 .témoignage img{
-    margin-left : 85px;
+    margin-left : 120px;
 }
 .témoignage_content{
     flex: 1;
-    padding: 200px;
+    padding: 50px;
 }
 
 .témoignage_ligne{
@@ -329,4 +330,32 @@ header nav ul {
 .témoignage_buttons{
     color: #034BFF;
     text-align: center;
+}
+
+footer{
+    background-color: #101211;
+    color: white;
+}
+.liens{
+    display: flex;
+    justify-content: space-around;
+    text-align:left;
+}
+.liens h6 {
+    color: #C3F85C ;
+}
+
+.liens ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.liens ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.info > p {
+    color: #B2BDB3;
 }
